@@ -1,0 +1,247 @@
+*, body {
+    font-family: BebasNeueBold;
+    box-sizing: border-box;
+    color: #48555B;
+}
+header {
+    padding: 40px;
+    height: 500px;
+    background: url('/img/bg.png')  no-repeat;
+    background-size: cover; 
+    height: 769px;    
+    top: 0;
+    left: 0; 
+    text-align: center;
+}
+.projeco-logo{
+    padding-bottom: 80px;    
+    text-transform: uppercase;
+    text-align: center;
+}
+.projeco-logo h3{    
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+}
+.projeco-logo img {
+    height: 23px;
+}
+.projeco-text {
+    padding-top: 100px;
+    color: #fff;
+    font-weight: 600;
+}
+.projeco-text h1 {
+    margin-top: 115px;
+    font-size: 50px;
+    line-height: 70px;
+}
+.projeco-text p{
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+color: #fff;
+}
+.projeco-scroll {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 100px 0;
+}
+.projeco-scroll h4 {
+    margin-top: 100px;
+}
+.navbarBlock {
+    padding: 25px;
+}
+.menu {
+    
+    list-style-type: none;
+}
+.menu li {
+    display: inline;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.menu a{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover {
+    color:#00A4E5;
+    ;
+}
+.top_line {
+    border-bottom: 1px solid #E6E6E6;
+}
+.about {
+    text-align: center;
+}
+.about h2{
+    text-decoration: none;
+    font-weight: 600;
+    text-transform:uppercase;
+        
+}
+.about-block{
+    padding: 40px;
+}
+.about h5{
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+.about span{
+    color:#00A4E5;
+}
+.about p{
+    padding: 10px;
+    text-align: left;
+    line-height: 23px;
+}
+.photo-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:10px ;
+    margin: 0 65px;
+}
+.flex-item {
+    background: url('/img/plan.png') no-repeat;
+    width: 300px;
+    height: 400px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 5px;
+}
+.flex-item h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    
+}
+.services h6 {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.services p{
+    padding:15px;
+    line-height: 19px;
+    font-family: Open Sans;
+    font-style: normal; 
+}
+.btn-services{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+}
+.services-block{
+    padding: 25px;
+}
+.serv-col{
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    width: 295px;
+}
+.serv-col img, h6, p {
+    padding: 15px;
+
+}
+.serv-col h6 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.serv-col p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+}
+main {
+    text-align: center;
+    background: url('/img/pic.png') no-repeat;
+    background-size: cover;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+}
+.build h1{
+    padding-top: 120px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+}
+.newsletter {
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #171819;
+    
+}
+.newsletter h3{
+    color:#fff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.signup {
+    color: #fff;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 10px 50px;
+    left: 0px;
+    top: 0px;
+    background-color: #00A4E5;
+    border: 1px solid #00A4E5;
+   
+}
+.yourEmail{    
+    padding: 8px 100px;
+    margin-top: 30px;
+    margin-right: -3px;
+    background: #141A20;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+}
+footer {
+    height: 240px;
+    left: 0px;
+    top: 0px;
+    background: #141A20;
+}
